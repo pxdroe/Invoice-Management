@@ -1,0 +1,250 @@
+﻿@model InvoiceDto
+
+<h1 class="text-center mb-3">Edit Invoice</h1>
+
+<div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+<form method="post">
+    <div class="row g-2 mb-3">
+        <div class="col-lg-6">
+            <div class="card h-100">
+                <div class="card-header">
+                    Invoice Details
+                </div>
+                <div class="card-body">
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Invoice ID</label>
+                        <div class="col-sm-8">
+                            <input readonly class="form-control-plaintext" value="@ViewBag.InvoiceId">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Invoice No</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="Number">
+                            <span asp-validation-for="Number" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Payment Status</label>
+                        <div class="col-sm-8">
+                            <select class="form-select" asp-for="Status">
+                                <option value="Pending">Pending</option>
+                                <option value="Paid">Paid</option>
+                            </select>
+                            <span asp-validation-for="Status" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Issue Date</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="IssueDate">
+                            <span asp-validation-for="IssueDate" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label class="col-sm-4 col-form-label">Due Date</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="DueDate">
+                            <span asp-validation-for="DueDate" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card h-100">
+                <div class="card-header">
+                    Client Details
+                </div>
+                <div class="card-body">
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Client</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="ClientName">
+                            <span asp-validation-for="ClientName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Email</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="Email">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-4 col-form-label">Phone</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="Phone">
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label class="col-sm-4 col-form-label">Address</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" asp-for="Address">
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card mb-3">
+        <div class="card-header">
+            <div class="row mb-2">
+                <div class="col">
+                    Services
+                </div>
+                <div class="col text-end fw-bold" id="totalPriceDivId">
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+
+            <button type="button" class="btn btn-sm btn-primary" onclick="addTableRow()">Add Service</button>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Unit Price</th>
+                        <th>Quantity</th>
+                        <th>Total Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @for (int index = 0; index < Model.InvoiceItems.Count; index++)
+                    {
+                        <tr>
+                            <td>
+                                <input name="InvoiceItems[@index].Service" required
+                                       value="@Model.InvoiceItems[index].Service" class="form-control" />
+                            </td>
+                            <td>
+                                <input name="InvoiceItems[@index].UnitPrice" required
+                                       type="number" step="any"
+                                       value="@Model.InvoiceItems[index].UnitPrice" class="form-control"
+                                       oninput="updateTotalPrice()" />
+                            </td>
+                            <td>
+                                <input name="InvoiceItems[@index].Quantity" required
+                                       type="number" step="any"
+                                       value="@Model.InvoiceItems[index].Quantity" class="form-control"
+                                       oninput="updateTotalPrice()" />
+                            </td>
+                            <td><input readonly class="form-control" value="0" /></td>
+                            <td style="white-space:nowrap">
+                                <button class="btn btn-danger" type="button" onclick="deleteTableRow(this)">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary me-2">Submit</button>
+    <a class="btn btn-outline-primary" asp-controller="Invoices" asp-action="Index" role="button">Cancel</a>
+
+</form>
+
+
+<script>
+    // PREÇO TOTAL ATUALIZADO
+    function updateTotalPrice() {
+        let tableRef = document.querySelector('table');
+        let totalInvoicePrice = 0;
+
+        for (let i = 1; i < tableRef.rows.length; i++) {
+            const row = tableRef.rows[i];
+
+            let unitPrice = row.cells[1].querySelector('input').value;
+            let quantity = row.cells[2].querySelector('input').value;
+
+            if (isNaN(quantity) || isNaN(unitPrice)) {
+                row.cells[3].querySelector('input').value = "0";
+            }
+            else {
+                let total = quantity * unitPrice;
+                totalInvoicePrice += total;
+                row.cells[3].querySelector('input').value = total.toFixed(2);
+            }
+        }
+
+        document.getElementById("totalPriceDivId").innerHTML = "Total: $" + totalInvoicePrice.toFixed(2);
+    }
+
+    updateTotalPrice();
+
+    function addTableRow() {
+        let tableRef = document.querySelector('table');
+
+        // Insert a row at the end of the table
+        let newRow = tableRef.insertRow(-1);
+        newRow.innerHTML = `
+            <td>
+                <input class="form-control" required />
+            </td>
+            <td>
+                <input class="form-control" value="0" oninput="updateTotalPrice()" required
+                    type="number" step="any" />
+            </td>
+            <td>
+                <input class="form-control" value="0" oninput="updateTotalPrice()" required
+                    type="number" step="any" />
+            </td>
+            <td><input readonly class="form-control" value="0.00" /></td>
+            <td style="white-space:nowrap">
+                <button class="btn btn-danger" type="button" onclick="deleteTableRow(this)">
+                    <i class="bi bi-trash"></i>
+                </button>
+            </td>
+        `;
+
+        updateInputNames();
+    }
+
+
+    function updateInputNames() {
+        let tableRef = document.querySelector('table');
+
+        for (let i = 1; i < tableRef.rows.length; i++) {
+            const row = tableRef.rows[i];
+
+            let index = i - 1;
+            row.cells[0].querySelector('input').name = "InvoiceItems[" + index + "].Service";
+            row.cells[1].querySelector('input').name = "InvoiceItems[" + index + "].UnitPrice";
+            row.cells[2].querySelector('input').name = "InvoiceItems[" + index + "].Quantity";
+        }
+    }
+
+    function deleteTableRow(btn) {
+        const cell = btn.parentNode;
+        const row = cell.parentNode;
+        row.remove();
+
+        updateInputNames();
+        updateTotalPrice();
+    }
+</script>

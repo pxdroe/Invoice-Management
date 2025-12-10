@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\InvoiceMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\models\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\views\\invoices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\views\\invoices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\views\\invoices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\views\\invoices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\migrations\\20251207161508_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\migrations\\20251207161508_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\views\\invoices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\views\\invoices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|c:\\projetos\\invoicemvc\\invoicemvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DB98E7B6-5185-4CB1-8994-309951680ACE}|InvoiceMVC\\InvoiceMVC.csproj|solutionrelative:invoicemvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "InvoiceMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:12:03.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Models\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Models\\InvoiceItem.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Models\\InvoiceItem.cs",
+              "RelativeToolTip": "InvoiceMVC\\Models\\InvoiceItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:41:26.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "InvoiceMVC\\Controllers\\InvoicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:12:06.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoiceDto.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Models\\InvoiceDto.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Models\\InvoiceDto.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Models\\InvoiceDto.cs",
+              "RelativeToolTip": "InvoiceMVC\\Models\\InvoiceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:06:30.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Invoices\\Index.cshtml",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Views\\Invoices\\Index.cshtml",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Invoices\\Index.cshtml",
+              "RelativeToolTip": "InvoiceMVC\\Views\\Invoices\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T13:26:24.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "InvoiceMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T12:38:23.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Program.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Program.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Program.cs",
+              "RelativeToolTip": "InvoiceMVC\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T12:36:25.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Models\\Invoice.cs",
+              "RelativeToolTip": "InvoiceMVC\\Models\\Invoice.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T12:04:41.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20251207161508_FirstMigration.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Migrations\\20251207161508_FirstMigration.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Migrations\\20251207161508_FirstMigration.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Migrations\\20251207161508_FirstMigration.cs",
+              "RelativeToolTip": "InvoiceMVC\\Migrations\\20251207161508_FirstMigration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T12:05:42.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Invoices\\Create.cshtml",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Views\\Invoices\\Create.cshtml",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Invoices\\Create.cshtml",
+              "RelativeToolTip": "InvoiceMVC\\Views\\Invoices\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T13:12:31.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Services\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InvoiceMVC\\Services\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:56:17.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "InvoiceMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:19:45.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "InvoiceMVC\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T11:38:50.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Invoices\\Edit.cshtml",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Views\\Invoices\\Edit.cshtml",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Invoices\\Edit.cshtml",
+              "RelativeToolTip": "InvoiceMVC\\Views\\Invoices\\Edit.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAO8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T11:22:58.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "InvoiceMVC\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\appsettings.json",
+              "RelativeToolTip": "InvoiceMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T13:33:15.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "InvoiceMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "InvoiceMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T12:41:43.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "InvoiceMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Projetos\\InvoiceMVC\\InvoiceMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "InvoiceMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-08T12:44:00.805Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

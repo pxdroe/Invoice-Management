@@ -1,0 +1,87 @@
+﻿@model List<Invoice>
+
+<a class="btn btn-primary mb-1" asp-controller="Invoices" asp-action="Create">New Invoice</a>
+
+<table class="table" id="idListInvoices">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Invoice No</th>
+            <th>Status</th>
+            <th>Client</th>
+            <th>Total Price</th>
+            <th>Issue Date</th>
+            <th>Due Date</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody class="table-group-divider">
+        @foreach (var invoice in Model)
+        {
+            decimal totalPrice = 0;
+            foreach (var item in invoice.InvoiceItems)
+            {
+                totalPrice += item.Quantity * item.UnitPrice;
+            }
+
+            <tr>
+                <td>@invoice.Id</td>
+                <td>@invoice.Number</td>
+                <td>
+                    @if (invoice.Status == "Paid")
+                    {
+                        <span class="badge rounded-pill text-bg-success">@invoice.Status</span>
+                    }
+                    else
+                    {
+                        <span class="badge rounded-pill text-bg-warning">@invoice.Status</span>
+                    }
+                </td>
+                <td>@invoice.ClientName</td>
+                <td>@(totalPrice)$</td>
+                <td>@invoice.IssueDate?.ToShortDateString()</td>
+                <td>@invoice.DueDate?.ToShortDateString()</td>
+                <td style="white-space:nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="Invoices" asp-action="Edit" asp-route-id="@invoice.Id">
+                        <i class="bi bi-pencil"></i>          @* create() new invoicedto*@
+                    </a>
+                    <button class="btn btn-danger btn-sm" onclick="deleteInvoice(@invoice.Id)">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<script>
+    function deleteInvoice(id) {
+        Swal.fire({
+           title: 'Delete Invoice!',
+           text: 'Do you want to delete this invoice with ID ' + id + '?',
+           showCancelButton: true,
+           confirmButtonText: "Yes, delete it!",
+           confirmButtonColor: "#d33",
+           cancelButtonText: "No, cancel!"
+        }).then(function(result) {
+
+          if (result.isConfirmed) {
+            window.location.href = "/Invoices/Delete?id=" + id;
+          }
+
+        });
+    }
+</script>
+
+
+@section Scripts {
+    @* datatables must be added after jquery => either add to _Layout or add to Scripts section *@
+    <script src="https://cdn.datatables.net/2.3.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.3.2/js/dataTables.bootstrap5.js"></script>
+    <script>
+        new DataTable('#idListInvoices', {ordering:  false});
+    </script>
+}
